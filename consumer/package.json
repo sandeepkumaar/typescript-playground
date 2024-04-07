@@ -1,0 +1,19 @@
+{
+  "name": "typescript-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript-playground": "file:../typescript/typescript-playground-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  }
+}
