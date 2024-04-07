@@ -1,6 +1,7 @@
 import {add1, add2} from './utils.js';
 /**
  * @typedef {import('./utils.js').Add} Add
+ * @typedef {import('../types.d.ts').CustomError} CustomError
 */
 
 
@@ -30,5 +31,19 @@ add2(1, 1);
 const addCurry = (fn) => (a, b, arr) => {
   return fn(a,b);
 };
+
+/**
+ * Test CustomError
+ * @type {CustomError}
+*/
+let e = new Error('ss')
+e.key = 'hi'
+
+
+
+
+
+
+
 
 export default addCurry

@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "rimraf -g ./*.d.ts ./src/**/*.d.ts && tsc --declaration --emitDeclarationOnly",
+    "lint": "rimraf -g ./index.d.ts ./src/**/*.d.ts && tsc --declaration --emitDeclarationOnly",
     "prepare": "npm run lint"
   },
   "author": "",
